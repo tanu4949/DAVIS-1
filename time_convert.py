@@ -1,3 +1,5 @@
+#convert the second into hours,minutes and remaining seconds
+
 seconds = 7340
 print("seconds is",seconds)
 seconds = seconds % (24 * 3600)
