@@ -1,0 +1,12 @@
+#python program for using function zeroes() in numpy for inserting zeros in array with and without datatype
+import numpy as n
+a=n.zeros(6)
+print(a)
+
+import numpy as n
+a= n.zeros((6,),dtype=int)
+print(a)
+
+import numpy as n
+a= n.zeros((6,2),dtype=int)
+print(a)
