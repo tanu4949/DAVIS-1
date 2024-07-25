@@ -1,0 +1,12 @@
+#python program for performing mathematical functions on the array
+import numpy as n
+n.random.seed(122)
+mat=n.random.randint(1,21,10)
+print("the array is",mat)
+print("--------------------------------------------------------------------------------------")
+n.random.shuffle(mat)
+print("after shuffling the array is",mat)
+print("--------------------------------------------------------------------------------------")
+print("the unique values and their indexes&count are:",n.unique(mat,return_index= True,return_counts=True))
+print("--------------------------------------------------------------------------------------")
+print("the total number of unique values are:",n.unique(mat).size)
