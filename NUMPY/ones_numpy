@@ -1,0 +1,9 @@
+#python program for using function ones() in numpy for inserting ones in array with and without datatype
+arr=(3,4)
+arr2=np.ones(arr)
+print(arr2)
+
+#create an 1D array of ones with 5 elements and integer with datatype
+import numpy as n
+a=n.ones((6),dtype=int)
+print(a)
