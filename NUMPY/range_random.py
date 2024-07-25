@@ -10,5 +10,5 @@ print(rand)
 
 #print random number between range
 import numpy as np
-rand= np.random.rand(2,8) #row and column
+rand= np.random.rand(2,8) #rows and columns
 print(rand)
