@@ -1,0 +1,16 @@
+# for sequence of random number and perform mathematical functions
+import numpy as n
+ar=n.arange(1,15)
+print(ar)
+print("the even values of array is",ar[ar%2==0])
+print("the odd values of array is",ar[ar%2!=0])
+print("the values greater than 8 is",ar[ar>8])
+print("replace the even values with 0:")
+ar[ar%2==0]=0
+print(ar)
+print("-----------------------------------------------")
+ar=n.arange(1,8)
+print(ar)
+print(ar+2)
+print(ar*2)
+print(ar**2)
