@@ -1,0 +1,18 @@
+#using stack function on array(vertically)
+import numpy as np
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+# Stack arr1 and arr2 vertically
+result = np.vstack((arr1, arr2))
+# Print the vertically stacked array
+print(result)
+
+
+#using stack function on array(horizontally)
+import numpy as np
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+# Stack arr1 and arr2 horizontally
+result = np.hstack((arr1, arr2))
+# Print the horizontally stacked array
+print(result)
